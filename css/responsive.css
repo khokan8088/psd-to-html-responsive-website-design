@@ -1,0 +1,178 @@
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+	#header_area .inner_header .menu nav ul li {
+		padding-left: 2%;
+	}
+	#header_area .inner_header .btn a {
+		font-size: 15px;
+		padding: 5px 10px;
+		border: 2px solid #47af17;
+	}
+	#banner_area .inner_banner .child_banner h2 {
+		font-size: 3rem;
+		font-weight: 600;
+		line-height: 1.2em;
+		margin-bottom: 1rem;
+	}
+	#banner_area .inner_banner .child_banner p {
+		padding: 2rem 0;
+		margin-bottom: 0;
+		font-size: 1.1rem;
+		color: #444444;
+		line-height: 1.5em;
+	}
+	#hero_area .inner_hero .child_hero h2 {
+		font-size: 1.2rem;
+	}
+	#about_us .inner_about .child_about h2 {
+		font-size: 1.75rem;
+		line-height: 1.2em;
+		margin-bottom: 1.5rem;
+	}
+	#about_us .inner_about .child_about p {
+		margin-bottom: 1rem;
+	}
+	
+
+}
+
+
+
+/*		Tablet Layout: 667px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+	
+	#header_area .inner_header .logo {
+		max-width: none;
+		width: 50%;
+		float: left;
+	}
+	#header_area .inner_header .btn {
+		max-width: none;
+		width: 50%;
+		float: left;
+		text-align: right;
+	}
+	#header_area {
+		padding: 0 0;
+	}
+	#banner_area .inner_banner .child_banner {
+		max-width: none;
+		width: 100%;
+		float: none;
+		margin-bottom: 55px;
+	}
+	#hero_area .inner_hero .child_hero {
+		box-shadow: 0 0 30px #ddd;
+		max-width: none;
+		width: 100%;
+		margin-right: 0;
+		float: none;
+		padding: 100px 70px 70px;
+		margin-bottom: 30px;
+	}
+	#hero_area .inner_hero .child_hero h2 {
+		font-size: 3rem;
+	}
+	#about_us .inner_about .child_about {
+		max-width: none;
+		width: 100%;
+		float: none;
+		margin-bottom: 30px;
+	}
+	#testimonial_area .inner_testimonial .child_testimonial {
+		max-width: none;
+		width: 100%;
+		float: none;
+		margin-bottom: 40px;
+	}
+	#about_us {
+		padding: 30px 0 0;
+	}
+	#testimonial_area {
+		margin: 0 0;
+	}
+	#testimonial_area .inner_testimonial {
+		padding: 0 2% 50px;
+	}
+	
+}
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+	#basic_area .inner-basic p {
+		font-size: 1.3rem;
+	}
+	#testimonial_area .inner_testimonial .child_testimonial .inner_child {
+		max-width: none;
+		width: 100%;
+		margin-right: 0;
+		float: none;
+	}
+	#footer_area .inner_footer .child-footer i {
+		padding: 20px 20px;
+		border-radius: 50%;
+		margin: 0 13px;
+		font-size: 1.25rem;
+	}
+	#footer_area .inner_footer .child-footer i.fa-facebook-f {
+		padding: 20px 23px;
+	}
+	
+}
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+	#banner_area .inner_banner .child_banner h2 {
+		font-size: 2rem;
+	}
+	#banner_area .inner_banner .child_banner a.first-link {
+		padding: 0.625rem 1rem;
+		margin-right: 0.625rem;
+		font-size: 1rem;
+	}
+	#banner_area .inner_banner .child_banner a.last-link {
+		padding: 0.625rem 1rem;
+	}
+	#hero_area .inner_hero .child_hero h2 {
+		font-size: 2rem;
+	}
+	#hero_area .inner_hero .child_hero {
+		padding: 70px 70px 70px;
+	}
+	#testimonial_area .inner_testimonial .child_testimonial h2 {
+		font-size: 1.75rem;
+	}
+	#footer_area .inner_footer .child-footer i {
+		margin: 0 6px;
+	}
+	
+}
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+	
+	
+}

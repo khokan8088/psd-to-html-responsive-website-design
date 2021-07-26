@@ -1,0 +1,508 @@
+
+/* Google fonts */
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&display=swap');
+
+
+/* Start Normal Typhography */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    max-width: 1200px;
+    width: 96%;
+    margin: 0 auto;
+}
+/* End Normal Typhography */
+
+
+/* Strst Header Part */
+
+#header_area{
+    width: 100%;
+    padding: 20px 0;
+}
+#header_area .inner_header{
+    padding: 0px 2%;
+    overflow: hidden;
+}
+#header_area .inner_header .logo{
+    max-width:200px ;
+    width: 16%;
+    float: left;
+}
+#header_area .inner_header .logo a{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+#header_area .inner_header .logo a span{
+    color: red;
+    font-size: 42px;
+}
+#header_area .inner_header .menu{
+    max-width:800px ;
+    width: 66%;
+    float: left;
+    padding: 24px 0;
+}
+#header_area .inner_header .menu nav ul{
+    text-align: right;
+}
+#header_area .inner_header .menu nav ul li{
+    display: inline-block;
+    padding-left: 4%;
+}
+#header_area .inner_header .menu nav ul li:first-child{
+    padding-left: 0;
+}
+#header_area .inner_header .menu nav ul li a{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #999999;
+    font-size: 1.1rem;
+    position: relative;
+}
+#header_area .inner_header .menu nav ul li.active a{
+    color: black;
+}
+#header_area .inner_header .menu nav ul li a:hover{
+    color: black;
+}
+#header_area .inner_header .menu nav ul li ul{
+    position: absolute;
+    width: 180px;
+    background: white;
+    text-align: left;
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 10px;
+    margin-top: 5px;
+    top: -99999999px;
+}
+#header_area .inner_header .menu nav ul li:hover ul{
+    top: 65px;
+}
+#header_area .inner_header .menu nav ul li:hover a{ 
+    color: #000;
+}
+#header_area .inner_header .menu nav ul li:hover ul li a{ 
+    color: #999999;
+}
+#header_area .inner_header .menu nav ul li:hover ul li a:hover{ 
+    color: #000;
+}
+#header_area .inner_header .menu nav ul li ul li{
+    display: block;
+    padding: 10px;
+}
+#header_area .inner_header .menu nav ul li ul li:first-child{
+    padding-left: 10px;
+}
+#header_area .inner_header .menu nav ul li ul li:last-child{
+    padding-top: 0;
+}
+#header_area .inner_header .btn{
+    max-width: 200px;
+    width: 18%;
+    float: right;
+    text-align: center;
+    padding: 23px 0;
+}
+#header_area .inner_header .btn a{
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: #47af17;
+    border: 3px solid #47af17;
+    border-radius: 24px;
+}
+#header_area .inner_header .btn a:hover{
+    background: #47af17;
+    color: #fff;
+}
+
+/* End Header Part */
+
+
+/* Start Banner Part */
+
+#banner_area{
+    width: 100%;
+    padding: 20px 0;
+}
+#banner_area .inner_banner{
+    padding: 20px 2%;
+    overflow: hidden;
+}
+#banner_area .inner_banner .child_banner{
+    max-width: 600px;
+    width: 50%;
+    float: left;
+}
+#banner_area .inner_banner .child_banner h2{
+    font-size: 4rem;
+    color: black;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-bottom: 3rem;
+}
+#banner_area .inner_banner .child_banner h2 span{
+    color: #ffaa00;
+}
+#banner_area .inner_banner .child_banner h2 strong{
+    color: #5cbe2d;
+}
+#banner_area .inner_banner .child_banner p{
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    color: #444444;
+    line-height: 1.8em;
+}
+#banner_area .inner_banner .child_banner a.first-link{
+    padding: 0.625rem 1.25rem;
+    margin-right: 0.625rem;
+    font-size: 1rem;
+    color: rgba(0,0,0,0.5);
+    border: 2px solid #ffba00;
+    border-radius: 24px;
+    font-weight: 700;
+}
+#banner_area .inner_banner .child_banner a.first-link:hover{
+    background: #ffba00;
+    color: #fff;
+}
+#banner_area .inner_banner .child_banner a.last-link:hover{
+    background: #7ad03a;
+    color: #fff;
+}
+#banner_area .inner_banner .child_banner a.last-link{
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    color: rgba(0,0,0,0.5);
+    border: 2px solid #7ad03a;
+    border-radius: 24px;
+    font-weight: 700;
+}
+
+/* End Banner Part */
+
+
+
+/* Start Hero Part */
+
+#hero_area{
+    width: 100%;
+    padding: 20px 0;
+}
+#hero_area .inner_hero{
+    padding: 20px 2%;
+    overflow: hidden;
+}
+#hero_area .inner_hero .child_hero{
+    background: #fff;
+    box-shadow: 0 0 30px #ddd;
+    max-width: 350px;
+    width: 29.16%;
+    margin-right: 6.25%;
+    border-radius: 10px;
+    float: left;
+    transition: all 0.5s ease;
+    padding: 120px 70px 80px;
+    box-sizing: border-box;
+}
+#hero_area .inner_hero .child_hero:hover{
+    background: #ffba00;
+    top: 10px;
+    position: relative; 
+}
+#hero_area .inner_hero .child_hero:hover h2{
+    color: #fff;
+}
+#hero_area .inner_hero .child_hero:hover i{
+    color: #fff;
+}
+#hero_area .inner_hero .child_hero:last-child{
+    margin-right: 0;
+}
+#hero_area .inner_hero .child_hero i{
+    font-size: 3rem;
+    text-align: center;
+    display: block;
+    padding-bottom: 1.5rem;
+    color: #ffba00;
+}
+#hero_area .inner_hero .child_hero h2{
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    line-height: 1.3em;
+}
+#hero_area .inner_hero .child_hero {}
+
+/* End Hero Part */
+
+
+/* Start Basic Part */
+
+#basic_area{
+    width: 100%;
+    padding: 20px 0;
+}
+#basic_area .inner-basic{
+    padding: 20px 2%;
+    overflow: hidden;
+    text-align: center;
+}
+#basic_area .inner-basic p{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    color: #444444;
+    margin-bottom: 2rem;
+}
+#basic_area .inner-basic p span{
+    font-weight: 700;
+    color: #7ad03a;
+}
+#basic_area .inner-basic p .d-color{
+    color: #ffba00;
+}
+#basic_area .inner-basic p .s-color{
+    color: #444444;
+}
+#basic_area .inner-basic a{
+    font-size: 1.25rem;
+    font-weight: 500;
+    background: #7ad03a;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+#basic_area .inner-basic a:hover{
+    background: #fff;
+    color: black;
+    border: 2px solid #7ad03a;
+}
+
+/* End Basic Part */
+
+
+
+/* Start About Us Part */
+
+#about_us{
+    width: 100%;
+    padding: 30px 0;
+}
+#about_us .inner_about{
+    padding: :20px 2%;
+    overflow:hidden;
+}
+#about_us .inner_about .child_about{
+    max-width: 600px;
+    width: 50%;
+    float: left;
+}
+#about_us .inner_about .child_about h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #444444 ;
+    line-height: 1.3em;
+    margin-bottom: 3.5rem;
+}
+#about_us .inner_about .child_about h2 span{
+    color: #7ad03a;
+}
+#about_us .inner_about .child_about p{
+    line-height: 1.5em;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+#about_us .inner_about .child_about i{
+    font-size: 2.5rem;
+    padding: 10px;
+    margin-right: 1rem;
+    background-color: chartreuse;
+    color: #fff;
+    border-radius: 24px;
+    cursor: pointer;
+}
+#about_us .inner_about .child_about a{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #7ad03a;
+}
+#about_us .inner_about .child_about a:hover{
+    text-decoration: underline;
+}
+
+/* End About Us Part */
+
+
+/* Start Testimonial Part */
+
+#testimonial_area{
+    width: 100%;
+    padding: 20px 0;
+    margin: 20px 0;
+    overflow: hidden;
+}
+#testimonial_area .inner_testimonial{
+    padding: 50px 2%;
+    overflow: hidden;
+}
+#testimonial_area .inner_testimonial .child_testimonial{
+    max-width: 600px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+#testimonial_area .inner_testimonial .child_testimonial h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+#testimonial_area .inner_testimonial .child_testimonial:first-child p{
+    color: #444;
+    margin-bottom: 2rem;
+}
+#testimonial_area .inner_testimonial .child_testimonial a{
+    padding: 0.825rem 2rem;
+    background-color: #ffaa00;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 242rem;
+}
+#testimonial_area .inner_testimonial .child_testimonial a:hover{
+    background-color: #fff;
+    color: #ffaa00;
+    border: 2px solid #ffaa00;
+    text-decoration: underline;
+}
+#testimonial_area .inner_testimonial .child_testimonial h2 span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #444;
+}
+#testimonial_area .inner_testimonial .child_testimonial:last-child{
+    padding: 0 2%;
+
+}
+#testimonial_area .inner_testimonial .child_testimonial .inner_child{
+    max-width: 260px;
+    width: 43.33%;
+    margin-right: 6.66%;
+    float: left;
+    box-shadow: 0 0 30px #ddd;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+#testimonial_area .inner_testimonial .child_testimonial .inner_child:last-child{
+    margin-right: 0%;
+    top: 30px;
+    position: relative;
+}
+#testimonial_area .inner_testimonial .child_testimonial .inner_child img{
+    border-radius: 20px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px 0;
+}
+#testimonial_area .inner_testimonial .child_testimonial .inner_child p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 0;
+}
+#testimonial_area .inner_testimonial .child_testimonial .inner_child p span{
+    color: #7ad03a;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* Start Testimonial Part */
+
+/* Start Footer Part */
+
+#footer_area{
+    width: 100%;
+    overflow: hidden;
+    background: #ddd;
+}
+#footer_area .inner_footer{
+    overflow: hidden;
+    padding: 20px 2%;
+}
+#footer_area .inner_footer .child-footer{
+    text-align: center;
+}
+#footer_area .inner_footer .child-footer ul{
+    padding: 20px 0;
+}
+#footer_area .inner_footer .child-footer ul li{
+    display: inline-block;
+    padding: 2%;
+}
+#footer_area .inner_footer .child-footer ul li a{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #999;
+    transition:0.1s;
+}
+#footer_area .inner_footer .child-footer ul li a:hover{
+    color: #000;
+    border-bottom: 3px solid #7ad03a;
+}
+#footer_area .inner_footer .child-footer ul li.active a{
+    color: #000;
+    border-bottom: 3px solid #7ad03a;
+}
+#footer_area .inner_footer .child-footer i{
+    padding: 30px 30px;
+    background:#fff;
+    box-shadow:0 0 20px #ddd;
+    border-radius:50%;
+    margin: 0 15px;
+    font-size: 1.5rem;
+    color: #7ad03a;
+}
+#footer_area .inner_footer .child-footer i.fa-facebook-f{
+    padding: 30px 35px;
+    background: #7ad03a;
+    color: #fff;
+}
+#footer_area .inner_footer .child-footer i:hover{
+    background: #7ad03a;
+    color: #fff;
+}
+#footer_area .inner_footer .child-footer:last-child{
+    padding: 40px 0;
+}
+#footer_area .inner_footer .child-footer:last-child p{
+    font-size: 1.25rem;
+    color: #999;
+}
+
+/* Start Footer Part */
